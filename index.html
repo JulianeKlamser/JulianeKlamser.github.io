@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Fira Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Updated Font Awesome version -->
+    <title>
+      Main page of Benjamin Guiselin</title>
+    <style>
+      /* CSS to style the text */
+      .joli-texte {
+        color: #C05555;
+        font-size: 30px;
+        /* Text color */
+      }
+      .jolii-texte {
+        color: #7d5954;
+        font-size: 20px;
+        font-style: italic;
+        /* Text color */
+      }
+      .joliii-texte {
+        color: #553B37;
+        font-size: 20px;
+        /* Text color */
+       }
+      .joli-ref {
+        color: #5F8575;
+        font-size: 18px;
+        /* Text color */
+       }
+      .joli-bouton {
+        color: #5F8575;
+        font-size: 23px;
+        font-weight: bold;
+        /* Text color */
+      }
+      body {
+        font-family: 'Fira Sans';
+        font-size: 18px;
+      }
+      /* Create a flex container */
+      .flex-container {
+        display: flex;
+        gap: 50px;
+        align-items: left;
+        justify-content: center;
+      }
+      .flexx-container {
+        display: flex;
+        gap: 20px;
+        align-items: top;
+        justify-content: center;
+      }
+      .brlarge { 
+        display: block; 
+        margin-bottom: 2em; 
+      } 
+      .brhuge { 
+        display: block; 
+        margin-bottom: 6em; 
+      } 
+      .petite-marge {
+        margin-left: 2em;
+      }
+      .marge {
+        margin-left: 5em;
+      }
+      /* Style for the text in the lower right corner */
+      .lower-right {
+          position: absolute;
+          bottom: 10px;
+          right: 10px;
+          font-size: 16px;
+          color: #553B37;
+      }
+      .full-width {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+      }
+      /* New style for the text above the image */
+      .text-above-image {
+          text-align: right;
+          margin-bottom: 10px;
+          font-size: 16px;
+          color: #553B37;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="flex-container">
+      <span>
+        <a style="text-decoration: none" href="index.html">
+          <span class="joli-bouton">Home</span>
+        </a>
+      </span>
+      <span>
+        <a style="text-decoration: none" href="publi.html">
+          <span class="joli-bouton">Publications</span>
+        </a>
+      </span>
+      <span>
+        <a style="text-decoration: none" href="cv.html">
+          <span class="joli-bouton">CV</span>
+        </a>
+      </span>
+    </div>
+    <span class="brlarge"></span>     
+    <div class="flex-container">
+      <img src='JKFeb2024.png' style="width: auto; max-width: 100%; height: auto; object-fit: contain;">
+      <span>
+        <span class="joli-texte"> Juliane U. KLAMSER </span>
+        <span class="brlarge"></span>
+        <span class="jolii-texte"> Charg&eacutee de recherche CNRS / <i> CNRS researcher </i> </span><br />
+        <span class="joliii-texte"> <a style="text-decoration: none" href="http://www.coulomb.umontpellier.fr/"><span class="joli-ref">Laboratoire Charles Coulomb (UMR 5221)</span></a> </span><br />
+        <span class="joliii-texte"> <a style="text-decoration: none" href="http://www.umontpellier.fr"><span class="joli-ref">Universit&eacute de Montpellier</span></a> &  <a style="text-decoration: none" href="https://www.cnrs.fr/fr"><span class="joli-ref">CNRS</span></a> </span>
+        <span class="brlarge"></span>
+        <div class="flexx-container">
+            <span class='fa fa-map-marker' style='font-size:22px'></span> 
+            <span>
+              Laboratoire Charles Coulomb, UMR 5221  <br />
+              Universit&eacute de Montpellier <br />
+              Place Eug&egravene Bataillon <br />
+              34095 Montpellier Cedex 5 <br />
+              France
+            </span>
+        </div>
+        <span class="brlarge"></span> 
+        <span class='fa fa-envelope' style='margin-right:11px'></span> juliane.klamser (at) umontpellier.fr  <br />
+        <span class='fab fa-orcid' style='font-size:22px'></span> <a style="text-decoration: none" href="https://orcid.org/0000-0001-9612-5614"><span class="joli-ref">ORCID ID: 0000-0001-9612-5614</span></a> 
+      </span>
+    </div>
+    </span>
+    <div>
+        <h2><span class="joli-texte">Research Interests </span></h2>
+        <p> I am interested in statistical physics, both in and out of equilibrium, as well as soft matter. My research primarily focuses on emergent collective phenomena in systems composed of particles that follow non-equilibrium dynamics, such as active particles. Since my primary research tool is numerical simulations, I am also interested in the development of algorithms.
+        <br />
+            Some key words summarizing my interests:
+        <br />
+            non-equilibrium statistical physics, soft matter, active matter, dense systems, numerical simulations, geometrical phase transitions, disordered systems, two-dimensional melting, development of algorithms
+        </p>
+    </div>
+       
+    <div class="full-width">
+        <div class="text-above-image">
+              This is the website of Juliane U. Klamser, Juliane Klamser.
+        </div>
+        <img src='Turbo.pdf' style="width: 100%; height: auto; object-fit: contain;">
+    </div>
+   
+  </body>
+</html>
